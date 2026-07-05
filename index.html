@@ -40,13 +40,29 @@ body{
     
 background:linear-gradient(
 -45deg,
-#6a8ec7,
-#84a3ca,
-#73a8c2,
-#4b79a1
+        #6a8ec7,
+        #84a3ca,
+        #73a8c2,
+        #4b79a1
 );
 background-size:400% 400%;
-animation:bgmove 12s ease infinite;
+animation:bgmove 2s ease infinite;
+      
+@keyframes bgmove{
+
+    0%{
+        background-position:0% 50%;
+    }
+
+    50%{
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
+
+}
 
 }
 
