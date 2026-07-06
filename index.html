@@ -30,40 +30,20 @@ content="website">
 }
 
 body{
-    font-family:"arial",sans-serif;
-    background:#839ab8;
-    color:#333;
-    line-height:1.8;
-    display:flex;
-    align-items:center;
-    flex-direction: column;
-    
-background:linear-gradient(
--45deg,
-        #6a8ec7,
-        #84a3ca,
-        #73a8c2,
-        #4b79a1
-);
-background-size:400% 400%;
-animation:bgmove 2s ease infinite;
-      
-@keyframes bgmove{
+    font-family:Arial,sans-serif;
+    <!-- 整个极光背景 -->
+    <div class="aurora">
 
-    0%{
-        background-position:0% 50%;
-    }
+        <!-- 第一团极光 -->
+        <div class="light light1"></div>
 
-    50%{
-        background-position:100% 50%;
-    }
+        <!-- 第二团极光 -->
+        <div class="light light2"></div>
 
-    100%{
-        background-position:0% 50%;
-    }
+        <!-- 第三团极光 -->
+        <div class="light light3"></div>
 
-}
-
+    </div>
 }
 
 header{
